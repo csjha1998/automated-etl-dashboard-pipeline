@@ -10,8 +10,8 @@ The pipeline is fully automated using Windows Task Scheduler, eliminating manual
 ## ⚙️ Architecture
 
 PostgreSQL → Python (ETL) → Google Sheets → Dashboard  
-                                                     ↑  
-                                             Task Scheduler
+                                               ↑  
+                                            Task Scheduler
 
 ---
 
