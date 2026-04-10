@@ -9,9 +9,10 @@ The pipeline is fully automated using Windows Task Scheduler, eliminating manual
 
 ## ⚙️ Architecture
 
-PostgreSQL → Python (ETL) → Google Sheets → Dashboard  
-                                               ↑  
-                                            Task Scheduler
+- Data Source: PostgreSQL  
+- Processing: Python (ETL pipeline using pandas)  
+- Output: Google Sheets Dashboard  
+- Automation: Task Scheduler (periodic execution)
 
 ---
 
